@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6C1A4;
+    align-items: center;
+}
+
+.subhero{
+    padding-left: 50px;
+}
+
+.subhero h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    color:#000000;
+}
+
+.heading{
+    padding-top: 100px;
+}
+
+.second-section{
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.second-section p{
+    font-size: 18px;
+}
+
+.dear{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.third-section{
+    display: flex;
+    background-color: #F5F5EB;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:30px;
+    justify-content: space-between;
+}
+
+.first-one{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.first-one p{
+    margin-top: 20px;
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F6C1A4;
+}
+
+.flower{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.forth-section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.forth-section p{
+    font-size: 18px;
+}
+
+.sincerely{
+    margin-top: 50px;
+}
