@@ -34,6 +34,7 @@
                 <article>
                     <h2>Post Title 1</h2>
                     <p>Content of the blog post...</p>
+                    <button class="open-modal" data-title="Post Title 1" data-content="More details about Post Title 1.">Read More</button>
                     <footer>
                         <span>Posted on May 5, 2024</span>
                         <span>By John Doe</span>
@@ -43,6 +44,7 @@
                 <article>
                     <h2>Post Title 2</h2>
                     <p>Content of another blog post...</p>
+                    <button class="open-modal" data-title="Post Title 2" data-content="More details about Post Title 2.">Read More</button>
                     <footer>
                         <span>Posted on May 7, 2024</span>
                         <span>By Jane Smith</span>
@@ -69,10 +71,20 @@
         </div>
     </main>
 
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-content"></p>
+        </div>
+    </div>
+
     <footer>
         <div class="container">
             <p>&copy; 2024 My Blog. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
